@@ -11,7 +11,7 @@ class EAHead(Module):
         self.k = 32 
         self.first_conv = nn.Conv2d(c, c, 1)
         self.k_linear = nn.Conv1d(c, self.k, 1, bias=False)
-        self.v_linear = nn.Conv1d(c, self.k, 1, bias=False)
+        self.v_linear = nn.Conv1d(self.k, c, 1, bias=False)
         
 
     def execute(self, x):
