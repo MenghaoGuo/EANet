@@ -10,6 +10,7 @@ paper : https://arxiv.org/abs/2105.02358
 * release torch semantic segmentation code and checkpoint.
 * release point cloud related code and checkpoint.
 * merge segmentation module into mmsegmentation to reproduce the ADE20K and Cityscapes dataset results.
+* merge PyTorch-StudioGAN to reproduce the GAN results.
 
 ## Astract
 
@@ -46,4 +47,4 @@ If it is helpful for your work, please cite this paper:
 
 ## Acknowledgments 
 
-We would like to sincerely thank [HamNet](https://github.com/Gsunshine/Enjoy-Hamburger) and [EMANet](https://github.com/XiaLiPKU/EMANet) for their awesome released code. 
+We would like to sincerely thank [HamNet](https://github.com/Gsunshine/Enjoy-Hamburger), [EMANet](https://github.com/XiaLiPKU/EMANet), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) , and [PyTorch-StudioGAN](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN) for their awesome released code. 
