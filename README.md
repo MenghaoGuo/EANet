@@ -15,7 +15,7 @@ paper : https://arxiv.org/abs/2105.02358
 
 ## Acknowledgments 
 
-We would like to sincerely thank [HamNet](https://github.com/Gsunshine/Enjoy-Hamburger), [EMANet](https://github.com/XiaLiPKU/EMANet), [openseg](https://github.com/openseg-group/openseg.pytorch), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) , and [PyTorch-StudioGAN](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN) for their awesome released code. 
+We would like to sincerely thank [HamNet_seg](https://github.com/Gsunshine/Enjoy-Hamburger), [EMANet_seg](https://github.com/XiaLiPKU/EMANet), [openseg](https://github.com/openseg-group/openseg.pytorch), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) and [PyTorch-StudioGAN](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN) for their awesome released code. 
 
 
 ## Astract
