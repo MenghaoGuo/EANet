@@ -2,3 +2,49 @@
 paper : https://arxiv.org/abs/2105.02358
 # Jittor code will come soon
 # Pascal VOC test result [link](http://host.robots.ox.ac.uk:8080/anonymous/T4OS1E.html)
+
+## Astract
+
+Attention mechanisms, especially self-attention, play an increasingly important role in deep feature representation in visual tasks. Self-attention updates the feature at each position by computing a weighted sum of features using pair-wise affinities across all positions to capture long-range dependency within a single sample. However, self-attention has a quadratic complexity and ignores potential correlation between different samples. This paper proposes a novel attention mechanism which we call external attention, based on two external, small, learnable, and shared memories, which can be implemented easily by simply using two cascaded linear layers and two normalization layers; it conveniently replaces self-attention in existing popular architectures. External attention has linear complexity and implicitly considers the correlations between all samples. Extensive experiments on image classification, semantic segmentation, image generation, point cloud classification and point cloud segmentation tasks reveal that our method provides comparable or superior performance to the self-attention mechanism and some of its variants, with much lower computational and memory costs.
+
+
+## Todo
+* release jittor semantic segmentation code.
+* release torch semantic segmentation code and checkpoint including test code.
+* release point cloud related code and checkpoint.
+* merge segmentation module into mmsegmentation to reproduce the ADE20K and Cityscapes dataset results (if possible)
+
+## Architecture
+
+
+## Jittor
+
+Jittor is a  high-performance deep learning framework which is easy to learn and use. It provides interfaces like Pytorch.
+
+You can learn how to use Jittor in following links:
+
+Jittor homepage:  https://cg.cs.tsinghua.edu.cn/jittor/
+
+Jittor github:  https://github.com/Jittor/jittor
+
+If you has any questions about Jittor, you can ask in Jittor developer QQ Group: 761222083
+
+
+## Citation
+
+If it is helpful for your work, please cite this paper:
+```
+@misc{guo2021attention,
+      title={Beyond Self-attention: External Attention using Two Linear Layers for Visual Tasks}, 
+      author={Meng-Hao Guo and Zheng-Ning Liu and Tai-Jiang Mu and Shi-Min Hu},
+      year={2021},
+      eprint={2105.02358},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+
+## Acknowledgments 
+
+We would like to sincerely thank [HamNet](https://github.com/Gsunshine/Enjoy-Hamburger) and [EMANet](https://github.com/XiaLiPKU/EMANet) for their awesome released code. 
