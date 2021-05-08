@@ -47,4 +47,4 @@ If it is helpful for your work, please cite this paper:
 
 ## Acknowledgments 
 
-We would like to sincerely thank [HamNet](https://github.com/Gsunshine/Enjoy-Hamburger), [EMANet](https://github.com/XiaLiPKU/EMANet), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) , and [PyTorch-StudioGAN](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN) for their awesome released code. 
+We would like to sincerely thank [HamNet](https://github.com/Gsunshine/Enjoy-Hamburger), [EMANet](https://github.com/XiaLiPKU/EMANet), [openseg](https://github.com/openseg-group/openseg.pytorch), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) , and [PyTorch-StudioGAN](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN) for their awesome released code. 
