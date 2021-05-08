@@ -6,8 +6,8 @@ paper : https://arxiv.org/abs/2105.02358
 
 
 ## TODO
-* release jittor semantic segmentation code.
-* release torch semantic segmentation code and checkpoint including test code.
+* release jittor semantic segmentation code and checkpoint.
+* release torch semantic segmentation code and checkpoint.
 * release point cloud related code and checkpoint.
 * merge segmentation module into mmsegmentation to reproduce the ADE20K and Cityscapes dataset results (if possible)
 
