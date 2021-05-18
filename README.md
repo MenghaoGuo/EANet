@@ -2,6 +2,7 @@
 paper : https://arxiv.org/abs/2105.02358
 # Jittor code will come soon
 # Pascal VOC test result [link](http://host.robots.ox.ac.uk:8080/anonymous/T4OS1E.html)
+# Pascal VOC pretrained model [link](https://cloud.tsinghua.edu.cn/f/1e7253ae0748470482e4/)
 
 ### Other implementation:
 Pytorch  : https://github.com/xmu-xiaoma666/External-Attention-pytorch
