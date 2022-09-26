@@ -10,14 +10,6 @@ You can download the pretrained model and then run  python test.py to reproduce 
 ### Other implementation:
 Pytorch  : https://github.com/xmu-xiaoma666/External-Attention-pytorch
 
-## TODO
-* release jittor semantic segmentation code and checkpoint.
-* release torch semantic segmentation code and checkpoint.
-* release point cloud related code and checkpoint.
-* merge segmentation module into mmsegmentation to reproduce the ADE20K and Cityscapes dataset results.
-* merge PyTorch-StudioGAN to reproduce the GAN results.
-
-
 ## Acknowledgments 
 
 We would like to sincerely thank [HamNet_seg](https://github.com/Gsunshine/Enjoy-Hamburger), [EMANet_seg](https://github.com/XiaLiPKU/EMANet), [openseg](https://github.com/openseg-group/openseg.pytorch), [T2T-ViT](https://github.com/yitu-opensource/T2T-ViT), [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) and [PyTorch-StudioGAN](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN) for their awesome released code. 
